@@ -167,7 +167,14 @@
     "autoUpdateCheck": "ਆਪਣੇ-ਆਪ ਅੱਪਡੇਟ ਜਾਂਚ",
     "autoUpdateCheckHelp": "ਦਿਨ ਵਿੱਚ ਇੱਕ ਵਾਰ ਨਵੀਂ ਰਿਲੀਜ਼ ਲਈ GitHub ਦੀ ਜਾਂਚ ਕਰਦਾ ਹੈ ਅਤੇ ਯਾਦ-ਦਹਾਨੀ ਦਿਖਾਉਂਦਾ ਹੈ। ਮੂਲ ਰੂਪ ਵਿੱਚ ਬੰਦ।",
     "openReleases": "GitHub Releases ਖੋਲ੍ਹੋ",
-    "restartAfterUpdate": "ਬਿਲਡ ਪੂਰਾ ਹੋਣ ਤੋਂ ਬਾਅਦ FreeLLMAPI ਨੂੰ ਮੁੜ ਚਾਲੂ ਕਰੋ।"
+    "restartAfterUpdate": "ਬਿਲਡ ਪੂਰਾ ਹੋਣ ਤੋਂ ਬਾਅਦ FreeLLMAPI ਨੂੰ ਮੁੜ ਚਾਲੂ ਕਰੋ।",
+    "liveSync": "Live model sync",
+    "liveSyncHelp": "Pulls each provider's own model list with your stored key and adds any new models. Runs automatically every N days.",
+    "liveSyncInterval": "Auto-sync every N days",
+    "liveSyncDays": "days",
+    "liveSyncRunNow": "Sync now",
+    "liveSyncRunning": "Syncing…",
+    "liveSyncDone": "Synced {platforms} platforms, {added} new models added."
   },
   "models": {
     "title": "ਮਾਡਲ",

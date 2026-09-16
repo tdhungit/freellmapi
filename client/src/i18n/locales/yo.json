@@ -167,7 +167,14 @@
     "autoUpdateCheck": "Àyẹ̀wò ìmúdójúìwọ̀n aládàáṣe",
     "autoUpdateCheckHelp": "Ó ń ṣàyẹ̀wò GitHub lẹ́ẹ̀kan lóòjọ́ fún ìtújáde tuntun, ó sì ń fi ìránnilétí hàn. Ó pa ní àtìbẹ̀rẹ̀.",
     "openReleases": "Ṣí àwọn ìtújáde GitHub",
-    "restartAfterUpdate": "Tun FreeLLMAPI bẹ̀rẹ̀ lẹ́yìn tí ìkọ́lé bá parí."
+    "restartAfterUpdate": "Tun FreeLLMAPI bẹ̀rẹ̀ lẹ́yìn tí ìkọ́lé bá parí.",
+    "liveSync": "Live model sync",
+    "liveSyncHelp": "Pulls each provider's own model list with your stored key and adds any new models. Runs automatically every N days.",
+    "liveSyncInterval": "Auto-sync every N days",
+    "liveSyncDays": "days",
+    "liveSyncRunNow": "Sync now",
+    "liveSyncRunning": "Syncing…",
+    "liveSyncDone": "Synced {platforms} platforms, {added} new models added."
   },
   "models": {
     "title": "Awọn awoṣe",

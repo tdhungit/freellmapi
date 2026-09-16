@@ -167,7 +167,14 @@
     "autoUpdateCheck": "Otomatik güncelleme denetimi",
     "autoUpdateCheckHelp": "Yeni bir sürüm için günde bir kez GitHub'ı denetler ve bir hatırlatma gösterir. Varsayılan olarak kapalıdır.",
     "openReleases": "GitHub Sürümlerini Aç",
-    "restartAfterUpdate": "Derleme tamamlandıktan sonra FreeLLMAPI'yi yeniden başlatın."
+    "restartAfterUpdate": "Derleme tamamlandıktan sonra FreeLLMAPI'yi yeniden başlatın.",
+    "liveSync": "Live model sync",
+    "liveSyncHelp": "Pulls each provider's own model list with your stored key and adds any new models. Runs automatically every N days.",
+    "liveSyncInterval": "Auto-sync every N days",
+    "liveSyncDays": "days",
+    "liveSyncRunNow": "Sync now",
+    "liveSyncRunning": "Syncing…",
+    "liveSyncDone": "Synced {platforms} platforms, {added} new models added."
   },
   "models": {
     "title": "Modeller",

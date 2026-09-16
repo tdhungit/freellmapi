@@ -167,7 +167,14 @@
     "autoUpdateCheck": "స్వయంచాలక నవీకరణ తనిఖీ",
     "autoUpdateCheckHelp": "రోజుకు ఒకసారి కొత్త విడుదల కోసం GitHubను తనిఖీ చేసి రిమైండర్‌ను చూపుతుంది. అప్రమేయంగా ఆఫ్‌లో ఉంటుంది.",
     "openReleases": "GitHub విడుదలలను తెరవండి",
-    "restartAfterUpdate": "బిల్డ్ పూర్తయిన తర్వాత FreeLLMAPIని పునఃప్రారంభించండి."
+    "restartAfterUpdate": "బిల్డ్ పూర్తయిన తర్వాత FreeLLMAPIని పునఃప్రారంభించండి.",
+    "liveSync": "Live model sync",
+    "liveSyncHelp": "Pulls each provider's own model list with your stored key and adds any new models. Runs automatically every N days.",
+    "liveSyncInterval": "Auto-sync every N days",
+    "liveSyncDays": "days",
+    "liveSyncRunNow": "Sync now",
+    "liveSyncRunning": "Syncing…",
+    "liveSyncDone": "Synced {platforms} platforms, {added} new models added."
   },
   "models": {
     "title": "మోడల్స్",

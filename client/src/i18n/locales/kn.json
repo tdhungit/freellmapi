@@ -167,7 +167,14 @@
     "autoUpdateCheck": "ಸ್ವಯಂಚಾಲಿತ ನವೀಕರಣ ಪರಿಶೀಲನೆ",
     "autoUpdateCheckHelp": "ದಿನಕ್ಕೊಮ್ಮೆ ಹೊಸ ಬಿಡುಗಡೆಗಾಗಿ GitHub ಅನ್ನು ಪರಿಶೀಲಿಸುತ್ತದೆ ಮತ್ತು ಜ್ಞಾಪನೆ ತೋರಿಸುತ್ತದೆ. ಪೂರ್ವನಿಯೋಜಿತವಾಗಿ ಆಫ್ ಆಗಿದೆ.",
     "openReleases": "GitHub ಬಿಡುಗಡೆಗಳನ್ನು ತೆರೆಯಿರಿ",
-    "restartAfterUpdate": "ಬಿಲ್ಡ್ ಪೂರ್ಣಗೊಂಡ ನಂತರ FreeLLMAPI ಅನ್ನು ಮರುಪ್ರಾರಂಭಿಸಿ."
+    "restartAfterUpdate": "ಬಿಲ್ಡ್ ಪೂರ್ಣಗೊಂಡ ನಂತರ FreeLLMAPI ಅನ್ನು ಮರುಪ್ರಾರಂಭಿಸಿ.",
+    "liveSync": "Live model sync",
+    "liveSyncHelp": "Pulls each provider's own model list with your stored key and adds any new models. Runs automatically every N days.",
+    "liveSyncInterval": "Auto-sync every N days",
+    "liveSyncDays": "days",
+    "liveSyncRunNow": "Sync now",
+    "liveSyncRunning": "Syncing…",
+    "liveSyncDone": "Synced {platforms} platforms, {added} new models added."
   },
   "models": {
     "title": "ಮಾದರಿಗಳು",

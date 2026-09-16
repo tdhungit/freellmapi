@@ -167,7 +167,14 @@
     "autoUpdateCheck": "Automatická kontrola aktualizácií",
     "autoUpdateCheckHelp": "Raz denne skontroluje na GitHube novú verziu a zobrazí pripomienku. Predvolene vypnuté.",
     "openReleases": "Otvoriť vydania na GitHube",
-    "restartAfterUpdate": "Reštartujte FreeLLMAPI po dokončení zostavovania."
+    "restartAfterUpdate": "Reštartujte FreeLLMAPI po dokončení zostavovania.",
+    "liveSync": "Live model sync",
+    "liveSyncHelp": "Pulls each provider's own model list with your stored key and adds any new models. Runs automatically every N days.",
+    "liveSyncInterval": "Auto-sync every N days",
+    "liveSyncDays": "days",
+    "liveSyncRunNow": "Sync now",
+    "liveSyncRunning": "Syncing…",
+    "liveSyncDone": "Synced {platforms} platforms, {added} new models added."
   },
   "models": {
     "title": "Modely",

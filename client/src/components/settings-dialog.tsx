@@ -555,6 +555,80 @@ function PreviewSection({ state }: { state: CompressionState }) {
 
 const RELEASES_URL = 'https://github.com/tashfeenahmed/freellmapi/releases'
 
+function LiveSyncSection({ active }: { active: boolean }) {
+  const { t } = useI18n()
+  const [draft, setDraft] = useState<string | null>(null)
+  const [running, setRunning] = useState(false)
+  const [note, setNote] = useState('')
+
+  useEffect(() => {
+    if (!active) return
+    let cancelled = false
+    apiFetch<{ intervalDays: number }>('/api/settings/live-sync')
+      .then(result => { if (!cancelled) setDraft(String(result.intervalDays)) })
+      .catch(() => { if (!cancelled) setDraft('1') })
+    return () => { cancelled = true }
+  }, [active])
+
+  async function runNow() {
+    setRunning(true)
+    setNote('')
+    try {
+      const result = await apiFetch<{
+        results: Array<{ inserted: number }>
+      }>('/api/models/live-sync', { method: 'POST', body: '{}' })
+      const added = result.results.reduce((total, row) => total + row.inserted, 0)
+      setNote(t('settings.liveSyncDone', { added, platforms: result.results.length }))
+    } catch (reason) {
+      setNote(reason instanceof Error ? reason.message : t('common.unknownError'))
+    } finally {
+      setRunning(false)
+    }
+  }
+
+  return (
+    <>
+      <Row
+        label={t('settings.liveSync')}
+        hint={t('settings.liveSyncHelp')}
+        control={(
+          <div className="flex items-center gap-2">
+            <input
+              type="number"
+              min={1}
+              max={365}
+              value={draft ?? ''}
+              onChange={event => {
+                setDraft(event.target.value)
+                const next = Number(event.target.value)
+                if (Number.isInteger(next) && next >= 1 && next <= 365) {
+                  void apiFetch('/api/settings/live-sync', {
+                    method: 'PUT',
+                    body: JSON.stringify({ intervalDays: next }),
+                  }).catch(() => { /* input keeps the draft; next open reloads */ })
+                }
+              }}
+              aria-label={t('settings.liveSyncInterval')}
+              className="h-9 w-20 rounded-lg border border-input bg-transparent px-3 font-mono text-sm outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 dark:bg-input/30"
+            />
+            <span className="text-xs text-muted-foreground">{t('settings.liveSyncDays')}</span>
+            <button
+              type="button"
+              onClick={() => void runNow()}
+              disabled={draft === null || running}
+              className="inline-flex items-center gap-1.5 rounded-lg border px-3 py-2 text-xs transition-colors outline-none hover:bg-muted focus-visible:ring-3 focus-visible:ring-ring/50 disabled:opacity-50"
+            >
+              <RefreshCw className={`size-3.5 ${running ? 'animate-spin' : ''}`} aria-hidden />
+              {running ? t('settings.liveSyncRunning') : t('settings.liveSyncRunNow')}
+            </button>
+          </div>
+        )}
+      />
+      {note && <p aria-live="polite" className="pt-2 text-xs text-muted-foreground">{note}</p>}
+    </>
+  )
+}
+
 function GeneralSection({ active }: { active: boolean }) {
   const { t } = useI18n()
   const { theme, setTheme } = useTheme()
@@ -582,6 +656,7 @@ function GeneralSection({ active }: { active: boolean }) {
           />
         )}
       />
+      <LiveSyncSection active={active} />
       <UpdateChecker active={active} />
     </>
   )

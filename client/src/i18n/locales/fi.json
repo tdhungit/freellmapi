@@ -167,7 +167,14 @@
     "autoUpdateCheck": "Automaattinen päivitystarkistus",
     "autoUpdateCheckHelp": "Tarkistaa GitHubista kerran päivässä, onko uutta julkaisua, ja näyttää muistutuksen. Oletuksena pois päältä.",
     "openReleases": "Avaa GitHub-julkaisut",
-    "restartAfterUpdate": "Käynnistä FreeLLMAPI uudelleen koonnin valmistuttua."
+    "restartAfterUpdate": "Käynnistä FreeLLMAPI uudelleen koonnin valmistuttua.",
+    "liveSync": "Live model sync",
+    "liveSyncHelp": "Pulls each provider's own model list with your stored key and adds any new models. Runs automatically every N days.",
+    "liveSyncInterval": "Auto-sync every N days",
+    "liveSyncDays": "days",
+    "liveSyncRunNow": "Sync now",
+    "liveSyncRunning": "Syncing…",
+    "liveSyncDone": "Synced {platforms} platforms, {added} new models added."
   },
   "models": {
     "title": "Mallit",

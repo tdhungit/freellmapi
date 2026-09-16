@@ -167,7 +167,14 @@
     "autoUpdateCheck": "Avtomatik yangilanish tekshiruvi",
     "autoUpdateCheckHelp": "Kuniga bir marta yangi nashr uchun GitHub'ni tekshiradi va eslatma ko'rsatadi. Sukut bo'yicha o'chirilgan.",
     "openReleases": "GitHub relizlarini ochish",
-    "restartAfterUpdate": "Build tugagach, FreeLLMAPI'ni qayta ishga tushiring."
+    "restartAfterUpdate": "Build tugagach, FreeLLMAPI'ni qayta ishga tushiring.",
+    "liveSync": "Live model sync",
+    "liveSyncHelp": "Pulls each provider's own model list with your stored key and adds any new models. Runs automatically every N days.",
+    "liveSyncInterval": "Auto-sync every N days",
+    "liveSyncDays": "days",
+    "liveSyncRunNow": "Sync now",
+    "liveSyncRunning": "Syncing…",
+    "liveSyncDone": "Synced {platforms} platforms, {added} new models added."
   },
   "models": {
     "title": "Modellar",

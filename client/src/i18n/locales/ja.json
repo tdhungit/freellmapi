@@ -167,7 +167,14 @@
     "autoUpdateCheck": "自動アップデートチェック",
     "autoUpdateCheckHelp": "1日1回、新しいリリースがないかGitHubを確認し、通知を表示します。既定では無効です。",
     "openReleases": "GitHub Releasesを開く",
-    "restartAfterUpdate": "ビルド完了後にFreeLLMAPIを再起動してください。"
+    "restartAfterUpdate": "ビルド完了後にFreeLLMAPIを再起動してください。",
+    "liveSync": "Live model sync",
+    "liveSyncHelp": "Pulls each provider's own model list with your stored key and adds any new models. Runs automatically every N days.",
+    "liveSyncInterval": "Auto-sync every N days",
+    "liveSyncDays": "days",
+    "liveSyncRunNow": "Sync now",
+    "liveSyncRunning": "Syncing…",
+    "liveSyncDone": "Synced {platforms} platforms, {added} new models added."
   },
   "models": {
     "title": "モデル",

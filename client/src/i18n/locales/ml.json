@@ -167,7 +167,14 @@
     "autoUpdateCheck": "സ്വയമേവയുള്ള അപ്ഡേറ്റ് പരിശോധന",
     "autoUpdateCheckHelp": "ദിവസത്തിൽ ഒരിക്കൽ പുതിയ റിലീസിനായി GitHub പരിശോധിച്ച് ഒരു ഓർമ്മപ്പെടുത്തൽ കാണിക്കുന്നു. സ്ഥിരസ്ഥിതിയായി ഓഫ് ആണ്.",
     "openReleases": "GitHub റിലീസുകൾ തുറക്കുക",
-    "restartAfterUpdate": "ബിൽഡ് പൂർത്തിയായ ശേഷം FreeLLMAPI പുനരാരംഭിക്കുക."
+    "restartAfterUpdate": "ബിൽഡ് പൂർത്തിയായ ശേഷം FreeLLMAPI പുനരാരംഭിക്കുക.",
+    "liveSync": "Live model sync",
+    "liveSyncHelp": "Pulls each provider's own model list with your stored key and adds any new models. Runs automatically every N days.",
+    "liveSyncInterval": "Auto-sync every N days",
+    "liveSyncDays": "days",
+    "liveSyncRunNow": "Sync now",
+    "liveSyncRunning": "Syncing…",
+    "liveSyncDone": "Synced {platforms} platforms, {added} new models added."
   },
   "models": {
     "title": "മോഡലുകൾ",

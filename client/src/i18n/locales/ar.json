@@ -167,7 +167,14 @@
     "autoUpdateCheck": "التحقق التلقائي من التحديثات",
     "autoUpdateCheckHelp": "يتحقق من GitHub مرة واحدة يوميًا بحثًا عن إصدار جديد ويعرض تذكيرًا. مُعطَّل افتراضيًا.",
     "openReleases": "فتح إصدارات GitHub",
-    "restartAfterUpdate": "أعد تشغيل FreeLLMAPI بعد اكتمال البنية."
+    "restartAfterUpdate": "أعد تشغيل FreeLLMAPI بعد اكتمال البنية.",
+    "liveSync": "Live model sync",
+    "liveSyncHelp": "Pulls each provider's own model list with your stored key and adds any new models. Runs automatically every N days.",
+    "liveSyncInterval": "Auto-sync every N days",
+    "liveSyncDays": "days",
+    "liveSyncRunNow": "Sync now",
+    "liveSyncRunning": "Syncing…",
+    "liveSyncDone": "Synced {platforms} platforms, {added} new models added."
   },
   "models": {
     "title": "نماذج",

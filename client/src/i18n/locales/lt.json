@@ -167,7 +167,14 @@
     "autoUpdateCheck": "Automatinis atnaujinimų tikrinimas",
     "autoUpdateCheckHelp": "Kartą per dieną patikrina „GitHub“, ar yra nauja laida, ir parodo priminimą. Pagal numatytuosius nustatymus išjungta.",
     "openReleases": "Atverti GitHub leidimus",
-    "restartAfterUpdate": "Baigę komponuoti paleiskite FreeLLMAPI iš naujo."
+    "restartAfterUpdate": "Baigę komponuoti paleiskite FreeLLMAPI iš naujo.",
+    "liveSync": "Live model sync",
+    "liveSyncHelp": "Pulls each provider's own model list with your stored key and adds any new models. Runs automatically every N days.",
+    "liveSyncInterval": "Auto-sync every N days",
+    "liveSyncDays": "days",
+    "liveSyncRunNow": "Sync now",
+    "liveSyncRunning": "Syncing…",
+    "liveSyncDone": "Synced {platforms} platforms, {added} new models added."
   },
   "models": {
     "title": "Modeliai",

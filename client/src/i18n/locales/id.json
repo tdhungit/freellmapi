@@ -167,7 +167,14 @@
     "autoUpdateCheck": "Pemeriksaan pembaruan otomatis",
     "autoUpdateCheckHelp": "Memeriksa GitHub sekali sehari untuk rilis baru dan menampilkan pengingat. Nonaktif secara bawaan.",
     "openReleases": "Buka Rilis GitHub",
-    "restartAfterUpdate": "Mulai ulang FreeLLMAPI setelah proses build selesai."
+    "restartAfterUpdate": "Mulai ulang FreeLLMAPI setelah proses build selesai.",
+    "liveSync": "Live model sync",
+    "liveSyncHelp": "Pulls each provider's own model list with your stored key and adds any new models. Runs automatically every N days.",
+    "liveSyncInterval": "Auto-sync every N days",
+    "liveSyncDays": "days",
+    "liveSyncRunNow": "Sync now",
+    "liveSyncRunning": "Syncing…",
+    "liveSyncDone": "Synced {platforms} platforms, {added} new models added."
   },
   "models": {
     "title": "Model",

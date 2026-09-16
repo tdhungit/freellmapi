@@ -1,6 +1,7 @@
 import { Router } from 'express';
 import type { Request, Response } from 'express';
 import { getUnifiedApiKey, regenerateUnifiedKey, getSetting, setSetting, getDb } from '../db/index.js';
+import { getLiveSyncIntervalDays, LIVE_SYNC_INTERVAL_SETTING } from '../services/live-catalog.js';
 import { applyProxyUrl, applyProxyMode, applyProxyEnabled, applyProxyBypass, applyFetchRelayToken, encodeFetchRelayToken, isProxyActive, getProxyUrl, getProxyMode, getFetchRelayToken, isProxyEnabled, getProxyBypassPlatforms, probeProxyUrl, fetchRelayUrlError, DEFAULT_PROXY_PROBE_TARGET, PROXY_MODES, PROXY_SCHEMES } from '../lib/proxy.js';
 import { getProvider } from '../providers/index.js';
 import type { Platform } from '@freellmapi/shared/types.js';
@@ -67,6 +68,23 @@ settingsRouter.put('/update-check', (req: Request, res: Response) => {
   }
   setSetting(UPDATE_CHECK_SETTING, parsed.data.enabled ? '1' : '0');
   res.json({ enabled: isAutoUpdateCheckEnabled() });
+});
+
+// Live catalog auto-sync interval (days): how often syncAllLivePlatforms runs
+// on its own. The manual run is POST /api/models/live-sync, which also
+// resets this timer (see services/live-catalog.ts). 1..365, default 1.
+settingsRouter.get('/live-sync', (_req: Request, res: Response) => {
+  res.json({ intervalDays: getLiveSyncIntervalDays() });
+});
+
+settingsRouter.put('/live-sync', (req: Request, res: Response) => {
+  const parsed = z.object({ intervalDays: z.number().int().min(1).max(365) }).safeParse(req.body);
+  if (!parsed.success) {
+    res.status(400).json({ error: { message: 'Invalid live sync interval: send {"intervalDays": 1..365}', type: 'invalid_request_error' } });
+    return;
+  }
+  setSetting(LIVE_SYNC_INTERVAL_SETTING, String(parsed.data.intervalDays));
+  res.json({ intervalDays: getLiveSyncIntervalDays() });
 });
 
 settingsRouter.get('/compression', (_req: Request, res: Response) => {

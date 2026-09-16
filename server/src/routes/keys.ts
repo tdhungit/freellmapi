@@ -18,6 +18,7 @@ import { discoverEndpointModels, probeEndpointModel, classifyModelId, ModelDisco
 import { probeEmbeddingDimensions, registerCustomEmbeddingModel } from '../services/embeddings.js';
 import { endpointScopeForBaseUrl, normalizeBaseUrl } from '../lib/endpoint-scope.js';
 import { recordCustomModelTombstone } from '../services/custom-model-tombstone.js';
+import { syncLivePlatform } from '../services/live-catalog.js';
 import type { Db } from '../db/types.js';
 import type { Platform } from '@freellmapi/shared/types.js';
 import { parseModelScope } from '../lib/model-scope.js';
@@ -615,6 +616,11 @@ keysRouter.post('/', (req: Request, res: Response) => {
     modelsAvailable: enabledModelCount(platform),
     notice: noModelsNotice(platform),
   });
+  // Live catalog: a new key may unlock models the static catalog doesn't know
+  // yet. Fire-and-forget so add-key stays fast; failures only log.
+  void syncLivePlatform(platform).catch(err =>
+    console.warn(`[live-catalog] sync after add-key failed for ${platform}:`, (err as Error)?.message ?? err),
+  );
 });
 
 // ── Custom OpenAI-compatible providers (#117, #212) ───────────────────────

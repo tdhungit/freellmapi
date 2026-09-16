@@ -18,6 +18,7 @@ import { getActiveProfileId, ensureModelInProfiles } from '../services/profile-m
 import { endpointScopeForBaseUrl, endpointScopeOfKey, qualifiedModelMemberId } from '../lib/endpoint-scope.js';
 import { clearCustomModelTombstone, recordCustomModelTombstone } from '../services/custom-model-tombstone.js';
 import { customModelSeed } from '../services/custom-model-seed.js';
+import { syncAllLivePlatforms, syncLivePlatform } from '../services/live-catalog.js';
 import { routePinnedModel } from '../services/router.js';
 import { logRequest } from '../lib/request-log.js';
 import { withKeyProxy } from '../lib/proxy.js';
@@ -424,6 +425,22 @@ modelsRouter.post('/:id/test', async (req: Request, res: Response) => {
     route.release?.();
   }
 
+});
+
+// Live catalog: pull the provider's own /models with the stored key and insert
+// any ids missing locally (insert-only, source='user'). Body { platform? } —
+// omit to sync every platform holding an enabled key.
+modelsRouter.post('/live-sync', async (req: Request, res: Response) => {
+  const platform = typeof req.body?.platform === 'string' ? req.body.platform.trim() : '';
+  if (platform) {
+    if (!hasProvider(platform as Platform) || platform === 'custom') {
+      res.status(400).json({ error: { message: `Unknown provider "${platform}"` } });
+      return;
+    }
+    res.json(await syncLivePlatform(platform));
+    return;
+  }
+  res.json({ results: await syncAllLivePlatforms() });
 });
 
 // List all models with availability info

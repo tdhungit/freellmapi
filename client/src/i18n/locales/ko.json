@@ -167,7 +167,14 @@
     "autoUpdateCheck": "자동 업데이트 확인",
     "autoUpdateCheckHelp": "하루에 한 번 GitHub에서 새 릴리스를 확인하고 알림을 표시합니다. 기본값은 꺼짐입니다.",
     "openReleases": "GitHub 릴리스 열기",
-    "restartAfterUpdate": "빌드가 완료되면 FreeLLMAPI를 다시 시작하세요."
+    "restartAfterUpdate": "빌드가 완료되면 FreeLLMAPI를 다시 시작하세요.",
+    "liveSync": "Live model sync",
+    "liveSyncHelp": "Pulls each provider's own model list with your stored key and adds any new models. Runs automatically every N days.",
+    "liveSyncInterval": "Auto-sync every N days",
+    "liveSyncDays": "days",
+    "liveSyncRunNow": "Sync now",
+    "liveSyncRunning": "Syncing…",
+    "liveSyncDone": "Synced {platforms} platforms, {added} new models added."
   },
   "models": {
     "title": "모델",

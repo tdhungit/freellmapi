@@ -167,7 +167,14 @@
     "autoUpdateCheck": "Автоматическая проверка обновлений",
     "autoUpdateCheckHelp": "Раз в день проверяет на GitHub наличие нового выпуска и показывает напоминание. По умолчанию выключено.",
     "openReleases": "Открыть релизы на GitHub",
-    "restartAfterUpdate": "Перезапустите FreeLLMAPI после завершения сборки."
+    "restartAfterUpdate": "Перезапустите FreeLLMAPI после завершения сборки.",
+    "liveSync": "Live model sync",
+    "liveSyncHelp": "Pulls each provider's own model list with your stored key and adds any new models. Runs automatically every N days.",
+    "liveSyncInterval": "Auto-sync every N days",
+    "liveSyncDays": "days",
+    "liveSyncRunNow": "Sync now",
+    "liveSyncRunning": "Syncing…",
+    "liveSyncDone": "Synced {platforms} platforms, {added} new models added."
   },
   "models": {
     "title": "Модели",

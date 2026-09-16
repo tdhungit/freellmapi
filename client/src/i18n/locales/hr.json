@@ -167,7 +167,14 @@
     "autoUpdateCheck": "Automatska provjera ažuriranja",
     "autoUpdateCheckHelp": "Jednom dnevno provjerava GitHub za novo izdanje i prikazuje podsjetnik. Prema zadanome isključeno.",
     "openReleases": "Otvori izdanja na GitHubu",
-    "restartAfterUpdate": "Ponovno pokrenite FreeLLMAPI nakon dovršetka izgradnje."
+    "restartAfterUpdate": "Ponovno pokrenite FreeLLMAPI nakon dovršetka izgradnje.",
+    "liveSync": "Live model sync",
+    "liveSyncHelp": "Pulls each provider's own model list with your stored key and adds any new models. Runs automatically every N days.",
+    "liveSyncInterval": "Auto-sync every N days",
+    "liveSyncDays": "days",
+    "liveSyncRunNow": "Sync now",
+    "liveSyncRunning": "Syncing…",
+    "liveSyncDone": "Synced {platforms} platforms, {added} new models added."
   },
   "models": {
     "title": "Modeli",

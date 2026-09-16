@@ -167,7 +167,14 @@
     "autoUpdateCheck": "ការពិនិត្យអាប់ដេតដោយស្វ័យប្រវត្តិ",
     "autoUpdateCheckHelp": "ពិនិត្យ GitHub ម្ដងក្នុងមួយថ្ងៃរកមើលការចេញផ្សាយថ្មី ហើយបង្ហាញការរំលឹក។ បិទតាមលំនាំដើម។",
     "openReleases": "បើក GitHub Releases",
-    "restartAfterUpdate": "ចាប់ផ្តើម FreeLLMAPI ឡើងវិញ បន្ទាប់ពីការបង្កើតបានបញ្ចប់។"
+    "restartAfterUpdate": "ចាប់ផ្តើម FreeLLMAPI ឡើងវិញ បន្ទាប់ពីការបង្កើតបានបញ្ចប់។",
+    "liveSync": "Live model sync",
+    "liveSyncHelp": "Pulls each provider's own model list with your stored key and adds any new models. Runs automatically every N days.",
+    "liveSyncInterval": "Auto-sync every N days",
+    "liveSyncDays": "days",
+    "liveSyncRunNow": "Sync now",
+    "liveSyncRunning": "Syncing…",
+    "liveSyncDone": "Synced {platforms} platforms, {added} new models added."
   },
   "models": {
     "title": "ម៉ូដែល",
