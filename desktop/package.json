@@ -38,5 +38,12 @@
     "js-yaml": "^4.2.0",
     "typescript": "^5.8.0",
     "vitest": "^3.2.4"
+  },
+  "allowScripts": {
+    "better-sqlite3@12.10.0": true,
+    "electron@38.8.6": true,
+    "esbuild@0.24.2": true,
+    "esbuild@0.28.1": true,
+    "fsevents@2.3.3": true
   }
 }
