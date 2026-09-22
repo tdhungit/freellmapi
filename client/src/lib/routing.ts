@@ -115,7 +115,9 @@ export type Row = FallbackEntry & Partial<RoutingScore>
 export interface TokenUsageData {
   totalBudget: number
   totalUsed: number
-  models: { displayName: string; platform: string; modelId?: string; budget: number; used?: number }[]
+  /** Served smartest-first (intelligenceRank 1 = smartest); the bar and its
+   *  legend keep that order. */
+  models: { displayName: string; platform: string; modelId?: string; intelligenceRank?: number; budget: number; used?: number }[]
 }
 
 // Custom endpoints all share the generic 'custom' platform id, so show the
@@ -401,6 +403,7 @@ export const platformColors: Record<string, string> = {
   groq:        '#f55036',
   cerebras:    '#8b5cf6',
   sail:        '#0ea5e9',
+  aclide:      '#6366f1',
   electronhub: '#6366f1',
   experiential: '#14b8a6',
   router9:      '#8b5cf6',

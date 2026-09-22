@@ -206,7 +206,7 @@ function copyFromDefault(db: any, profileId: number) {
 profilesRouter.put('/:id', (req: Request, res: Response) => {
   const db = getDb();
   const profileId = getId(req);
-  const profile = db.prepare('SELECT id, type FROM profiles WHERE id = ?').get(profileId) as any;
+  const profile = db.prepare('SELECT id, name, type FROM profiles WHERE id = ?').get(profileId) as any;
   if (!profile) {
     res.status(404).json({ error: { message: 'Profile not found' } });
     return;
@@ -215,6 +215,17 @@ profilesRouter.put('/:id', (req: Request, res: Response) => {
   const parsed = updateSchema.safeParse(req.body);
   if (!parsed.success) {
     res.status(400).json({ error: { message: parsed.error.errors.map(e => e.message).join(', ') } });
+    return;
+  }
+
+  const isProtected = profile.type === 'default' || profile.type === 'builtin';
+
+  // A chain's name is the address clients route with (auto:<name>), and the
+  // built-in names are fixed in docs and client configs. Say so with a 403
+  // rather than silently dropping the rename (#1179); an unchanged name sent
+  // along with other fields still passes.
+  if (isProtected && parsed.data.name !== undefined && parsed.data.name !== profile.name) {
+    res.status(403).json({ error: { message: 'Built-in chains cannot be renamed' } });
     return;
   }
 
@@ -227,7 +238,6 @@ profilesRouter.put('/:id', (req: Request, res: Response) => {
     }
   }
 
-  const isProtected = profile.type === 'default' || profile.type === 'builtin';
   const updates: string[] = [];
   const values: any[] = [];
   for (const [key, value] of Object.entries(parsed.data)) {

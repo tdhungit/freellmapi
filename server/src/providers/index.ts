@@ -9,6 +9,7 @@ import { ModelScopeProvider } from './modelscope.js';
 import { PollinationsProvider } from './pollinations.js';
 import { ZhipuProvider } from './zhipu.js';
 import { SailProvider } from './sail.js';
+import { AclideProvider } from './aclide.js';
 import { ElectronHubProvider } from './electronhub.js';
 import { ExperientialProvider } from './experiential.js';
 import { Router9Provider } from './router9.js';
@@ -54,6 +55,7 @@ register(new OpenAICompatProvider({
 // usage beyond that grant is pay-as-you-go. Live-tested 2026-09-01. Model rows
 // stay in Oracle so the existing Premium-now / Free-after-30-days gate applies.
 register(new SailProvider());
+register(new AclideProvider());
 
 // Free-plan grants are shared wallets, not free credits per model. Eligibility
 // and tested model rows belong in Oracle, never in bundled DB migrations.
@@ -257,6 +259,11 @@ register(new OpenAICompatProvider({
 // (no card required — billing only applies to paid models). The free roster is
 // trial-only and prompts/outputs may be used to improve the models, so we seed
 // just the docs-confirmed free IDs (migrateModelsV18) with conservative limits.
+// Since 2026-09 the free roster is locked to the OpenCode client (#1249): every
+// free model answers 403 FreeTierError "OpenCode's free tier can only be used
+// from within OpenCode" on a valid key, and sending the OpenCode client headers
+// (#1204, reverted) does not change that. The catalog disables the free rows;
+// the provider stays registered for keys on OpenCode's paid models.
 register(new OpenAICompatProvider({
   platform: 'opencode',
   name: 'OpenCode Zen',
@@ -303,9 +310,12 @@ register(new OpenAICompatProvider({
 // $0.0, please pay with fiat or send tao". The "free" tier requires a
 // non-zero balance, which conflicts with the project's no-card criterion.
 
-// Reka — OpenAI-compatible (api.reka.ai/v1). Live-probed 2026-06-17: free via a
-// recurring monthly credit grant (no card; key from platform.reka.ai), billed
-// calls succeed with no 402. The OpenAI-compatible /v1/models lists two models:
+// Reka — OpenAI-compatible (api.reka.ai/v1). No longer free for new accounts
+// (#1202): Reka's FAQ now requires prepaid credits and a $0 balance answers
+// P001 Insufficient Balance. Accounts that still hold credit keep working
+// (both models answered 200 on 2026-09-17), so the provider stays registered;
+// the old `reka-flash` id 404s and is disabled in the catalog.
+// The OpenAI-compatible /v1/models lists two models:
 // reka-flash-3 (text reasoning) and reka-edge-2603 (natively multimodal —
 // accepts image/video input). Balance is dashboard-only (no credits API).
 // Catalog rows live in the catalog (premium → age into free); they are NOT

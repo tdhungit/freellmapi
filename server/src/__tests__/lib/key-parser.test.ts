@@ -202,6 +202,30 @@ describe('key parser', () => {
     ]);
   });
 
+  // RFC 4180 quoting: the CSV export quotes every cell and doubles quotes in
+  // labels, so a label with a comma or a quote is routine. The old single
+  // regex could not represent those lines and silently dropped the whole row.
+  it('parses quoted labels containing commas and escaped quotes', () => {
+    const csv = 'platform,key,label,base_url\n' +
+      '"groq","gsk-abc","work, primary",""\n' +
+      '"google","AIza-test","say ""hi""",""\n';
+    expect(parseCsv(csv)).toEqual([
+      { key: 'GROQ_KEY', value: 'gsk-abc', platform: 'groq' },
+      { key: 'GOOGLE_KEY', value: 'AIza-test', platform: 'google' },
+    ]);
+  });
+
+  it('round-trips a full export through parseKeysFromFile', () => {
+    // Exactly what GET /api/keys/export?format=csv writes for three keys.
+    const csv = 'platform,key,label,base_url\n' +
+      '"groq","gsk-abc","work, primary",""\n' +
+      '"custom","sk-local","say ""hi""","http://192.168.1.5:1234/v1"\n';
+    const result = parseKeysFromFile(csv, 'freellmapi-keys.csv');
+    expect(result.skipped).toEqual([]);
+    expect(result.keys.map(k => k.platform)).toEqual(['groq', 'custom']);
+    expect(result.keys[1]!.baseUrl).toBe('http://192.168.1.5:1234/v1');
+  });
+
   it('handles export JSON via parseKeysFromFile', () => {
     const exportJson = JSON.stringify({
       version: 1,

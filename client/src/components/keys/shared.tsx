@@ -26,6 +26,7 @@ export function GetKeyLink({ url }: { url: string }) {
 // form disables the key field and submits a sentinel the backend stores so
 // routing treats the platform as configured.
 export const PLATFORMS: { value: Platform; label: string; url: string; keyless?: boolean }[] = [
+  { value: 'aclide', label: 'ACLIDE (shared monthly credits)', url: 'https://aclide.com/en/dashboard/api-keys' },
   { value: 'google', label: 'Google AI Studio', url: 'https://aistudio.google.com/apikey' },
   { value: 'groq', label: 'Groq', url: 'https://console.groq.com/keys' },
   { value: 'cerebras', label: 'Cerebras', url: 'https://cloud.cerebras.ai' },
@@ -57,9 +58,9 @@ export const PLATFORMS: { value: Platform; label: string; url: string; keyless?:
   { value: 'ovh', label: 'OVH AI Endpoints (no key needed)', url: 'https://endpoints.ai.cloud.ovh.net', keyless: true },
   { value: 'llm7', label: 'LLM7 (anon ok)', url: 'https://llm7.io' },
   { value: 'huggingface', label: 'HuggingFace Router', url: 'https://huggingface.co/settings/tokens' },
-  { value: 'opencode', label: 'OpenCode Zen (free key)', url: 'https://opencode.ai/auth' },
+  { value: 'opencode', label: 'OpenCode Zen (paid models only)', url: 'https://opencode.ai/auth' },
   { value: 'agnes', label: 'Agnes AI (free key)', url: 'https://platform.agnes-ai.com' },
-  { value: 'reka', label: 'Reka (free key)', url: 'https://platform.reka.ai' },
+  { value: 'reka', label: 'Reka (prepaid credits)', url: 'https://platform.reka.ai' },
   { value: 'siliconflow', label: 'SiliconFlow (image + TTS)', url: 'https://siliconflow.com' },
   { value: 'routeway', label: 'Routeway (free key)', url: 'https://routeway.ai' },
   { value: 'bazaarlink', label: 'BazaarLink (free key)', url: 'https://bazaarlink.ai' },
