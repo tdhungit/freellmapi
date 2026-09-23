@@ -376,6 +376,7 @@
     "checklistSummary": "An saita {configured} daga cikin {total} masu bayarwa",
     "checklistKeyless": "ba a buƙatar maɓalli",
     "checklistNoKeyTip": "Ba a ƙara maɓalli ba tukuna. Danna don ƙarawa.",
+    "checklistSignupLink": "Buɗe {provider} don ƙirƙirar asusua da samun mabuɗi",
     "checklistKeylessTip": "Yana aiki ba tare da maɓalli ba.",
     "tabQuotaSignals": "Alamun ƙididdiga",
     "tabApiKey": "Maɓallin API haɗe",

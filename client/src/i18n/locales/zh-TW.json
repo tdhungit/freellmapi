@@ -376,6 +376,7 @@
     "checklistSummary": "已設定 {configured}/{total} 個提供者",
     "checklistKeyless": "無需金鑰",
     "checklistNoKeyTip": "尚未新增金鑰。點擊即可新增。",
+    "checklistSignupLink": "開啟 {provider} 註冊帳號並取得金鑰",
     "checklistKeylessTip": "無需金鑰即可使用。",
     "tabQuotaSignals": "配額訊號",
     "tabApiKey": "統一 API 金鑰",

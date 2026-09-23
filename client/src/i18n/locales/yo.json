@@ -376,6 +376,7 @@
     "checklistSummary": "A ti ṣètò {configured} nínú {total} olùpèsè",
     "checklistKeyless": "kò nílò kọ́kọ́rọ́",
     "checklistNoKeyTip": "Kò sí kọ́kọ́rọ́ tí a ti fi kún un. Tẹ̀ láti fi kọ́kọ́rọ́ kún un.",
+    "checklistSignupLink": "Ṣí {provider} láti ṣẹ́ àkàwo àti láti gba kọ́kọ́rọ́",
     "checklistKeylessTip": "Ó ń ṣiṣẹ́ láìsí kọ́kọ́rọ́.",
     "tabQuotaSignals": "Quota awọn ifihan agbara",
     "tabApiKey": "Bọtini API ti iṣọkan",

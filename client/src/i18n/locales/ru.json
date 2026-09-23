@@ -376,6 +376,7 @@
     "checklistSummary": "Настроено {configured} из {total} провайдеров",
     "checklistKeyless": "ключ не нужен",
     "checklistNoKeyTip": "Ключ ещё не добавлен. Нажмите, чтобы добавить.",
+    "checklistSignupLink": "Откройте {provider}, чтобы создать аккаунт и получить ключ",
     "checklistKeylessTip": "Работает без ключа.",
     "tabQuotaSignals": "Сигналы квоты",
     "tabApiKey": "Единый ключ API",

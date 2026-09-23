@@ -376,6 +376,7 @@
     "checklistSummary": "{total} ମଧ୍ୟରୁ {configured} ପ୍ରଦାନକାରୀ ବିନ୍ୟାସ ହୋଇଛି",
     "checklistKeyless": "କି ଆବଶ୍ୟକ ନାହିଁ",
     "checklistNoKeyTip": "ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି କି ଯୋଡାଯାଇ ନାହିଁ। ଯୋଡିବା ପାଇଁ କ୍ଲିକ୍ କରନ୍ତୁ।",
+    "checklistSignupLink": "ଆକାଉଣ୍ଟ ତିଆରି କରି କି ପାଇବା ପାଇଁ {provider} ଖୋଲନ୍ତୁ",
     "checklistKeylessTip": "କି ବିନା କାମ କରେ।",
     "tabQuotaSignals": "କୋଟା ସଙ୍କେତ",
     "tabApiKey": "ଏକୀକୃତ API କୀ",

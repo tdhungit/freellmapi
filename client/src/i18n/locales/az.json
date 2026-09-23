@@ -376,6 +376,7 @@
     "checklistSummary": "{total} təchizatçıdan {configured} qurulub",
     "checklistKeyless": "açar tələb olunmur",
     "checklistNoKeyTip": "Hələ açar əlavə edilməyib. Əlavə etmək üçün klikləyin.",
+    "checklistSignupLink": "Hesab yaratmaq və açar almaq üçün {provider} səhifəsini açın",
     "checklistKeylessTip": "Açarsız işləyir.",
     "tabQuotaSignals": "Kvota siqnalları",
     "tabApiKey": "Birləşmiş API açarı",

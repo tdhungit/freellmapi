@@ -376,6 +376,7 @@
     "checklistSummary": "Налаштовано {configured} із {total} провайдерів",
     "checklistKeyless": "ключ не потрібен",
     "checklistNoKeyTip": "Ключ ще не додано. Натисніть, щоб додати.",
+    "checklistSignupLink": "Відкрийте {provider}, щоб створити обліковий запис і отримати ключ",
     "checklistKeylessTip": "Працює без ключа.",
     "tabQuotaSignals": "Сигнали квоти",
     "tabApiKey": "Уніфікований ключ API",

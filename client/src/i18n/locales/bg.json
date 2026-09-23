@@ -376,6 +376,7 @@
     "checklistSummary": "Настроени са {configured} от {total} доставчици",
     "checklistKeyless": "не е нужен ключ",
     "checklistNoKeyTip": "Все още не е добавен ключ. Щракнете, за да добавите.",
+    "checklistSignupLink": "Отворете {provider}, за да създадете акаунт и да получите ключ",
     "checklistKeylessTip": "Работи без ключ.",
     "tabQuotaSignals": "Квотни сигнали",
     "tabApiKey": "Унифициран API ключ",

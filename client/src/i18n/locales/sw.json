@@ -376,6 +376,7 @@
     "checklistSummary": "Watoa huduma {configured} kati ya {total} wamesanidiwa",
     "checklistKeyless": "hakuna ufunguo unaohitajika",
     "checklistNoKeyTip": "Bado hakuna ufunguo ulioongezwa. Bofya ili kuongeza.",
+    "checklistSignupLink": "Fungua {provider} kuunda akaunti na upate ufunguo",
     "checklistKeylessTip": "Hufanya kazi bila ufunguo.",
     "tabQuotaSignals": "Ishara za quota",
     "tabApiKey": "Kitufe cha umoja cha API",

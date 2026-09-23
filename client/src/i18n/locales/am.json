@@ -376,6 +376,7 @@
     "checklistSummary": "ከ{total} አቅራቢዎች {configured} ተዋቅረዋል",
     "checklistKeyless": "ቁልፍ አያስፈልግም",
     "checklistNoKeyTip": "እስካሁን ቁልፍ አልታከለም። ለመጨመር ጠቅ ያድርጉ።",
+    "checklistSignupLink": "መለያ ለመፍጠር እና ቁልፍ ለማግኘት {provider} ክፈት",
     "checklistKeylessTip": "ያለ ቁልፍ ይሠራል።",
     "tabQuotaSignals": "የኮታ ምልክቶች",
     "tabApiKey": "የተዋሃደ API ቁልፍ",

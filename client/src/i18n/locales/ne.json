@@ -376,6 +376,7 @@
     "checklistSummary": "{total} मध्ये {configured} प्रदायकहरू कन्फिगर गरिएको",
     "checklistKeyless": "कुञ्जी आवश्यक छैन",
     "checklistNoKeyTip": "अहिलेसम्म कुनै कुञ्जी थपिएको छैन। थप्न क्लिक गर्नुहोस्।",
+    "checklistSignupLink": "खाता बनाउन र कुञ्जी प्राप्त गर्न {provider} खोल्नुहोस्",
     "checklistKeylessTip": "कुञ्जी बिना काम गर्छ।",
     "tabQuotaSignals": "कोटा सङ्केतहरू",
     "tabApiKey": "एकीकृत API कुञ्जी",

@@ -376,6 +376,7 @@
     "checklistSummary": "{total}টি প্রদানকারীর মধ্যে {configured}টি কনফিগার করা হয়েছে",
     "checklistKeyless": "কোনো কী প্রয়োজন নেই",
     "checklistNoKeyTip": "এখনও কোনো কী যোগ করা হয়নি। যোগ করতে ক্লিক করুন।",
+    "checklistSignupLink": "অ্যাকাউন্ট তৈরি করতে এবং কী পেতে {provider} খুলুন",
     "checklistKeylessTip": "কী ছাড়াই কাজ করে।",
     "tabQuotaSignals": "কোটা সংকেত",
     "tabApiKey": "ইউনিফাইড API কী",

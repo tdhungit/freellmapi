@@ -376,6 +376,7 @@
     "checklistSummary": "{total} szolgáltatóból {configured} beállítva",
     "checklistKeyless": "nem kell kulcs",
     "checklistNoKeyTip": "Még nincs hozzáadva kulcs. Kattintson a hozzáadáshoz.",
+    "checklistSignupLink": "Nyissa meg a {provider} oldalt fiók létrehozásához és kulcs szerzéséhez",
     "checklistKeylessTip": "Kulcs nélkül működik.",
     "tabQuotaSignals": "Kvótajelzések",
     "tabApiKey": "Egységes API kulcs",

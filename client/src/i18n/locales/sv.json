@@ -376,6 +376,7 @@
     "checklistSummary": "{configured} av {total} leverantörer konfigurerade",
     "checklistKeyless": "ingen nyckel krävs",
     "checklistNoKeyTip": "Ingen nyckel har lagts till än. Klicka för att lägga till en.",
+    "checklistSignupLink": "Öppna {provider} för att skapa ett konto och få en nyckel",
     "checklistKeylessTip": "Fungerar utan nyckel.",
     "tabQuotaSignals": "Kvotsignaler",
     "tabApiKey": "Enhetlig API nyckel",

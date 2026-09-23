@@ -376,6 +376,7 @@
     "checklistSummary": "تم إعداد {configured} من {total} من مقدمي الخدمات",
     "checklistKeyless": "لا حاجة لمفتاح",
     "checklistNoKeyTip": "لم تتم إضافة أي مفتاح بعد. انقر لإضافة مفتاح.",
+    "checklistSignupLink": "افتح {provider} لإنشاء حساب والحصول على مفتاح",
     "checklistKeylessTip": "يعمل بدون مفتاح.",
     "tabQuotaSignals": "إشارات الحصص",
     "tabApiKey": "مفتاح API الموحد",

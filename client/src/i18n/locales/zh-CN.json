@@ -376,6 +376,7 @@
     "checklistSummary": "已配置 {configured}/{total} 个提供方",
     "checklistKeyless": "无需密钥",
     "checklistNoKeyTip": "尚未添加密钥。点击添加一个。",
+    "checklistSignupLink": "打开 {provider} 注册账户并获取密钥",
     "checklistKeylessTip": "无需密钥即可使用。",
     "tabQuotaSignals": "配额信号",
     "tabApiKey": "统一 API 密钥",

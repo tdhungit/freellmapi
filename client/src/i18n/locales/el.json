@@ -376,6 +376,7 @@
     "checklistSummary": "{configured} από {total} παρόχους έχουν ρυθμιστεί",
     "checklistKeyless": "δεν απαιτείται κλειδί",
     "checklistNoKeyTip": "Δεν έχει προστεθεί κλειδί ακόμη. Κάντε κλικ για να προσθέσετε ένα.",
+    "checklistSignupLink": "Ανοίξτε το {provider} για να δημιουργήσετε λογαριασμό και να λάβετε κλειδί",
     "checklistKeylessTip": "Λειτουργεί χωρίς κλειδί.",
     "tabQuotaSignals": "Σήματα ποσοστώσεων",
     "tabApiKey": "Ενοποιημένο κλειδί API",

@@ -376,6 +376,7 @@
     "checklistSummary": "{total} ta provayderdan {configured} tasi sozlangan",
     "checklistKeyless": "kalit kerak emas",
     "checklistNoKeyTip": "Hali kalit qo'shilmagan. Qo'shish uchun bosing.",
+    "checklistSignupLink": "Hisob yaratish va kalit olish uchun {provider} ni oching",
     "checklistKeylessTip": "Kalitsiz ishlaydi.",
     "tabQuotaSignals": "Kvota signallari",
     "tabApiKey": "Birlashtirilgan API kaliti",

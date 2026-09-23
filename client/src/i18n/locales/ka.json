@@ -376,6 +376,7 @@
     "checklistSummary": "{total}-დან {configured} პროვაიდერი კონფიგურირებულია",
     "checklistKeyless": "გასაღები არ არის საჭირო",
     "checklistNoKeyTip": "გასაღები ჯერ არ დამატებულა. დააწკაპუნეთ დასამატებლად.",
+    "checklistSignupLink": "გახსენით {provider} ანგარიშის შესაქმნელად და გასაღების მისაღებად",
     "checklistKeylessTip": "მუშაობს გასაღების გარეშე.",
     "tabQuotaSignals": "კვოტის სიგნალები",
     "tabApiKey": "ერთიანი API გასაღები",

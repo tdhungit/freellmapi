@@ -376,6 +376,7 @@
     "checklistSummary": "{configured} van {total} aanbieders ingesteld",
     "checklistKeyless": "geen sleutel nodig",
     "checklistNoKeyTip": "Nog geen sleutel toegevoegd. Klik om er een toe te voegen.",
+    "checklistSignupLink": "Open {provider} om een account aan te maken en een sleutel te krijgen",
     "checklistKeylessTip": "Werkt zonder sleutel.",
     "tabQuotaSignals": "Quotasignalen",
     "tabApiKey": "Unified API sleutel",

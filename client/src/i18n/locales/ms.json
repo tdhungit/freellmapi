@@ -376,6 +376,7 @@
     "checklistSummary": "{configured} daripada {total} penyedia telah dikonfigurasi",
     "checklistKeyless": "tiada kunci diperlukan",
     "checklistNoKeyTip": "Belum ada kunci ditambah. Klik untuk menambah.",
+    "checklistSignupLink": "Buka {provider} untuk membuat akaun dan mendapatkan kunci",
     "checklistKeylessTip": "Berfungsi tanpa kunci.",
     "tabQuotaSignals": "Isyarat kuota",
     "tabApiKey": "Kunci API bersatu",

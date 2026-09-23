@@ -376,6 +376,7 @@
     "checklistSummary": "Nastaveno {configured} z {total} poskytovatelů",
     "checklistKeyless": "klíč není potřeba",
     "checklistNoKeyTip": "Zatím nebyl přidán žádný klíč. Kliknutím jej přidáte.",
+    "checklistSignupLink": "Otevřete {provider} pro vytvoření účtu a získání klíče",
     "checklistKeylessTip": "Funguje bez klíče.",
     "tabQuotaSignals": "Kvótové signály",
     "tabApiKey": "Sjednocený API klíč",

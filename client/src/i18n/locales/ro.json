@@ -376,6 +376,7 @@
     "checklistSummary": "{configured} din {total} furnizori configurați",
     "checklistKeyless": "nu necesită cheie",
     "checklistNoKeyTip": "Nicio cheie adăugată încă. Faceți clic pentru a adăuga una.",
+    "checklistSignupLink": "Deschideți {provider} pentru a crea un cont și a obține o cheie",
     "checklistKeylessTip": "Funcționează fără cheie.",
     "tabQuotaSignals": "Semnale de cotă",
     "tabApiKey": "Cheia API unificată",

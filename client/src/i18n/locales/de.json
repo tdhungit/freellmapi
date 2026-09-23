@@ -376,6 +376,7 @@
     "checklistSummary": "{configured} von {total} Anbietern eingerichtet",
     "checklistKeyless": "kein Schlüssel nötig",
     "checklistNoKeyTip": "Noch kein Schlüssel hinzugefügt. Zum Hinzufügen klicken.",
+    "checklistSignupLink": "{provider} öffnen, um ein Konto zu erstellen und einen Schlüssel zu erhalten",
     "checklistKeylessTip": "Funktioniert ohne Schlüssel.",
     "tabQuotaSignals": "Quotensignale",
     "tabApiKey": "Einheitlicher API-Schlüssel",

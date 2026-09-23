@@ -376,6 +376,7 @@
     "checklistSummary": "{total} पैकी {configured} प्रदाते कॉन्फिगर केले",
     "checklistKeyless": "की आवश्यक नाही",
     "checklistNoKeyTip": "अद्याप कोणतीही की जोडलेली नाही. जोडण्यासाठी क्लिक करा.",
+    "checklistSignupLink": "खाते तयार करण्यासाठी आणि की मिळवण्यासाठी {provider} उघडा",
     "checklistKeylessTip": "कीशिवाय काम करते.",
     "tabQuotaSignals": "कोटा सिग्नल",
     "tabApiKey": "युनिफाइड API की",

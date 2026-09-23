@@ -376,6 +376,7 @@
     "checklistSummary": "{total}-ൽ {configured} ദാതാക്കൾ കോൺഫിഗർ ചെയ്തു",
     "checklistKeyless": "കീ ആവശ്യമില്ല",
     "checklistNoKeyTip": "ഇതുവരെ കീ ചേർത്തിട്ടില്ല. ചേർക്കാൻ ക്ലിക്ക് ചെയ്യുക.",
+    "checklistSignupLink": "അക്കൗണ്ട് സൃഷ്ടിച്ച് കീ നേടാൻ {provider} തുറക്കുക",
     "checklistKeylessTip": "കീ ഇല്ലാതെ പ്രവർത്തിക്കുന്നു.",
     "tabQuotaSignals": "ക്വാട്ട സിഗ്നലുകൾ",
     "tabApiKey": "ഏകീകൃത API കീ",

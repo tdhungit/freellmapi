@@ -376,6 +376,7 @@
     "checklistSummary": "{configured} מתוך {total} ספקים הוגדרו",
     "checklistKeyless": "אין צורך במפתח",
     "checklistNoKeyTip": "עדיין לא נוסף מפתח. לחץ כדי להוסיף.",
+    "checklistSignupLink": "פתח את {provider} ליצירת חשבון וקבלת מפתח",
     "checklistKeylessTip": "עובד ללא מפתח.",
     "tabQuotaSignals": "אותות מכסה",
     "tabApiKey": "מפתח API מאוחד",

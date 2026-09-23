@@ -376,6 +376,7 @@
     "checklistSummary": "{total} ರಲ್ಲಿ {configured} ಪೂರೈಕೆದಾರರನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಲಾಗಿದೆ",
     "checklistKeyless": "ಕೀ ಅಗತ್ಯವಿಲ್ಲ",
     "checklistNoKeyTip": "ಇನ್ನೂ ಯಾವುದೇ ಕೀ ಸೇರಿಸಿಲ್ಲ. ಸೇರಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ.",
+    "checklistSignupLink": "ಖಾತೆ ರಚಿಸಿ ಕೀ ಪಡೆಯಲು {provider} ತೆರೆಯಿರಿ",
     "checklistKeylessTip": "ಕೀ ಇಲ್ಲದೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ.",
     "tabQuotaSignals": "ಕೋಟಾ ಸಂಕೇತಗಳು",
     "tabApiKey": "ಏಕೀಕೃತ API ಕೀ",

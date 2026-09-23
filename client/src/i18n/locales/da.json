@@ -376,6 +376,7 @@
     "checklistSummary": "{configured} af {total} udbydere er konfigureret",
     "checklistKeyless": "ingen nøgle påkrævet",
     "checklistNoKeyTip": "Der er endnu ikke tilføjet en nøgle. Klik for at tilføje en.",
+    "checklistSignupLink": "Åbn {provider} for at oprette en konto og få en nøgle",
     "checklistKeylessTip": "Virker uden nøgle.",
     "tabQuotaSignals": "Kvotesignaler",
     "tabApiKey": "Unified API nøgle",

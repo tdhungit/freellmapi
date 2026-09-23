@@ -376,6 +376,7 @@
     "checklistSummary": "Sukonfigūruota {configured} iš {total} tiekėjų",
     "checklistKeyless": "rakto nereikia",
     "checklistNoKeyTip": "Raktas dar nepridėtas. Spustelėkite, kad pridėtumėte.",
+    "checklistSignupLink": "Atidarykite {provider}, kad sukurtumėte paskyrą ir gautumėte raktą",
     "checklistKeylessTip": "Veikia be rakto.",
     "tabQuotaSignals": "Kvotų signalai",
     "tabApiKey": "Vieningas API raktas",

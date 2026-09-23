@@ -376,6 +376,7 @@
     "checklistSummary": "{total} ਵਿੱਚੋਂ {configured} ਪ੍ਰਦਾਤਾ ਸੰਰਚਿਤ ਕੀਤੇ ਗਏ",
     "checklistKeyless": "ਕੁੰਜੀ ਦੀ ਲੋੜ ਨਹੀਂ",
     "checklistNoKeyTip": "ਅਜੇ ਤੱਕ ਕੋਈ ਕੁੰਜੀ ਸ਼ਾਮਲ ਨਹੀਂ ਕੀਤੀ ਗਈ। ਸ਼ਾਮਲ ਕਰਨ ਲਈ ਕਲਿੱਕ ਕਰੋ।",
+    "checklistSignupLink": "ਖਾਤਾ ਬਣਾਉਣ ਅਤੇ ਕੁੰਜੀ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ {provider} ਖੋਲ੍ਹੋ",
     "checklistKeylessTip": "ਕੁੰਜੀ ਤੋਂ ਬਿਨਾਂ ਕੰਮ ਕਰਦਾ ਹੈ।",
     "tabQuotaSignals": "ਕੋਟਾ ਸਿਗਨਲ",
     "tabApiKey": "ਯੂਨੀਫਾਈਡ API ਕੁੰਜੀ",

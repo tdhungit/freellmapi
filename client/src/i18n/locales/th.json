@@ -376,6 +376,7 @@
     "checklistSummary": "กำหนดค่าผู้ให้บริการแล้ว {configured} จาก {total} ราย",
     "checklistKeyless": "ไม่ต้องใช้คีย์",
     "checklistNoKeyTip": "ยังไม่ได้เพิ่มคีย์ คลิกเพื่อเพิ่ม",
+    "checklistSignupLink": "เปิด {provider} เพื่อสร้างบัญชีและรับคีย์",
     "checklistKeylessTip": "ใช้งานได้โดยไม่ต้องใช้คีย์",
     "tabQuotaSignals": "สัญญาณโควต้า",
     "tabApiKey": "คีย์ API แบบรวม",

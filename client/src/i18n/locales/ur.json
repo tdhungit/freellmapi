@@ -376,6 +376,7 @@
     "checklistSummary": "{total} میں سے {configured} فراہم کنندگان ترتیب دیے گئے",
     "checklistKeyless": "کلید کی ضرورت نہیں",
     "checklistNoKeyTip": "ابھی تک کوئی کلید شامل نہیں کی گئی۔ شامل کرنے کے لیے کلک کریں۔",
+    "checklistSignupLink": "اکاؤنٹ بنانے اور کلید حاصل کرنے کے لیے {provider} کھولیں",
     "checklistKeylessTip": "کلید کے بغیر کام کرتا ہے۔",
     "tabQuotaSignals": "کوٹہ سگنلز",
     "tabApiKey": "متحد API کلید",

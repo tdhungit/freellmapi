@@ -376,6 +376,7 @@
     "checklistSummary": "{total} sağlayıcıdan {configured} tanesi yapılandırıldı",
     "checklistKeyless": "anahtar gerekmez",
     "checklistNoKeyTip": "Henüz anahtar eklenmedi. Eklemek için tıklayın.",
+    "checklistSignupLink": "Hesap oluşturmak ve anahtar almak için {provider} adresini açın",
     "checklistKeylessTip": "Anahtarsız çalışır.",
     "tabQuotaSignals": "Kota sinyalleri",
     "tabApiKey": "Birleşik API anahtarı",

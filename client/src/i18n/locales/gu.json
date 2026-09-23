@@ -376,6 +376,7 @@
     "checklistSummary": "{total} માંથી {configured} પ્રદાતાઓ ગોઠવેલા છે",
     "checklistKeyless": "કીની જરૂર નથી",
     "checklistNoKeyTip": "હજી સુધી કોઈ કી ઉમેરી નથી. ઉમેરવા માટે ક્લિક કરો.",
+    "checklistSignupLink": "ખાતું બનાવવા અને કી મેળવવા {provider} ખોલો",
     "checklistKeylessTip": "કી વિના કામ કરે છે.",
     "tabQuotaSignals": "ક્વોટા સંકેતો",
     "tabApiKey": "એકીકૃત API કી",

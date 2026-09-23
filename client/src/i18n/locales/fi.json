@@ -376,6 +376,7 @@
     "checklistSummary": "{configured}/{total} palveluntarjoajaa määritetty",
     "checklistKeyless": "avainta ei tarvita",
     "checklistNoKeyTip": "Avainta ei ole vielä lisätty. Lisää napsauttamalla.",
+    "checklistSignupLink": "Avaa {provider} tilin luomista ja avaimen saantia varten",
     "checklistKeylessTip": "Toimii ilman avainta.",
     "tabQuotaSignals": "Kiintiösignaalit",
     "tabApiKey": "Yhtenäinen API avain",

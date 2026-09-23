@@ -376,6 +376,7 @@
     "checklistSummary": "{configured} sa {total} tagapagbigay ang naka-configure",
     "checklistKeyless": "hindi kailangan ng key",
     "checklistNoKeyTip": "Wala pang key na naidagdag. I-click para magdagdag.",
+    "checklistSignupLink": "Buksan ang {provider} upang gumawa ng account at kumuha ng key",
     "checklistKeylessTip": "Gumagana nang walang key.",
     "tabQuotaSignals": "Mga senyales ng quota",
     "tabApiKey": "Pinag-isang API key",

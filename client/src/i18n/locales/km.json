@@ -376,6 +376,7 @@
     "checklistSummary": "បានកំណត់រចនាសម្ព័ន្ធអ្នកផ្តល់សេវា {configured} ក្នុងចំណោម {total}",
     "checklistKeyless": "មិនត្រូវការសោ",
     "checklistNoKeyTip": "មិនទាន់បានបន្ថែមសោនៅឡើយទេ។ ចុចដើម្បីបន្ថែម។",
+    "checklistSignupLink": "បើក {provider} ដើម្បីបង្កើតគណនី និងទទួលយកគ្រាប់ចុច",
     "checklistKeylessTip": "ដំណើរការដោយមិនចាំបាច់ប្រើសោ។",
     "tabQuotaSignals": "សញ្ញាកូតា",
     "tabApiKey": "កូនសោ API រួម",

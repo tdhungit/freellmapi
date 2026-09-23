@@ -376,6 +376,7 @@
     "checklistSummary": "ပံ့ပိုးသူ {total} ဦးအနက် {configured} ဦး သတ်မှတ်ပြီး",
     "checklistKeyless": "ကီး မလိုအပ်ပါ",
     "checklistNoKeyTip": "ကီး မထည့်ရသေးပါ။ ထည့်ရန် နှိပ်ပါ။",
+    "checklistSignupLink": "အကောင့်ဖွင့်၍ သော့့ရရန် {provider} ကိုဖွင့်ပါ",
     "checklistKeylessTip": "ကီး မပါဘဲ အလုပ်လုပ်ပါသည်။",
     "tabQuotaSignals": "အရေအတွက် အချက်ပြချက်များ",
     "tabApiKey": "ပေါင်းစည်းထားသော API",

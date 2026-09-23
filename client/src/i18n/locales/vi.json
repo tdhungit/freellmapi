@@ -376,6 +376,7 @@
     "checklistSummary": "Đã cấu hình {configured} trong {total} nhà cung cấp",
     "checklistKeyless": "không cần khóa",
     "checklistNoKeyTip": "Chưa thêm khóa nào. Nhấp để thêm.",
+    "checklistSignupLink": "Mở {provider} để tạo tài khoản và lấy khóa",
     "checklistKeylessTip": "Hoạt động mà không cần khóa.",
     "tabQuotaSignals": "tín hiệu hạn ngạch",
     "tabApiKey": "Khóa API hợp nhất",

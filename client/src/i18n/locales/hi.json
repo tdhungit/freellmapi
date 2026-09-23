@@ -376,6 +376,7 @@
     "checklistSummary": "{total} में से {configured} प्रदाता कॉन्फ़िगर किए गए",
     "checklistKeyless": "कुंजी की आवश्यकता नहीं",
     "checklistNoKeyTip": "अभी तक कोई कुंजी नहीं जोड़ी गई। जोड़ने के लिए क्लिक करें।",
+    "checklistSignupLink": "खाता बनाने और कुंजी पाने के लिए {provider} खोलें",
     "checklistKeylessTip": "कुंजी के बिना काम करता है।",
     "tabQuotaSignals": "कोटा संकेत",
     "tabApiKey": "एकीकृत API कुंजी",

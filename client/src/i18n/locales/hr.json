@@ -376,6 +376,7 @@
     "checklistSummary": "Konfigurirano {configured} od {total} pružatelja usluga",
     "checklistKeyless": "ključ nije potreban",
     "checklistNoKeyTip": "Ključ još nije dodan. Kliknite za dodavanje.",
+    "checklistSignupLink": "Otvorite {provider} za izradu računa i dobivanje ključa",
     "checklistKeylessTip": "Radi bez ključa.",
     "tabQuotaSignals": "Kvotni signali",
     "tabApiKey": "Ujedinjeni API ključ",

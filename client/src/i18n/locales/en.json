@@ -376,6 +376,7 @@
     "checklistSummary": "{configured} of {total} providers configured",
     "checklistKeyless": "no key needed",
     "checklistNoKeyTip": "No key added yet. Click to add one.",
+    "checklistSignupLink": "Open {provider} to create an account and get a key",
     "checklistKeylessTip": "Works without a key.",
     "tabQuotaSignals": "Quota signals",
     "tabApiKey": "Unified API key",

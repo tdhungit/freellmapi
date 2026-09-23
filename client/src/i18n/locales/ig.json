@@ -376,6 +376,7 @@
     "checklistSummary": "Ahaziela {configured} n'ime {total} ndị na-enye ihe",
     "checklistKeyless": "achọghị igodo",
     "checklistNoKeyTip": "Etinyebeghị igodo. Pịa iji tinye otu.",
+    "checklistSignupLink": "Meghe {provider} iji mepụta akaụntụ ma nweta igodo",
     "checklistKeylessTip": "Ọ na-arụ ọrụ na-enweghị igodo.",
     "tabQuotaSignals": "Ngosipụta oke",
     "tabApiKey": "Igodo API jikọtara ọnụ",

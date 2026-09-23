@@ -376,6 +376,7 @@
     "checklistSummary": "{configured} از {total} ارائه‌دهنده پیکربندی شده است",
     "checklistKeyless": "بدون نیاز به کلید",
     "checklistNoKeyTip": "هنوز کلیدی اضافه نشده است. برای افزودن کلیک کنید.",
+    "checklistSignupLink": "{provider} را باز کنید تا حساب بسازید و کلید بگیرید",
     "checklistKeylessTip": "بدون کلید کار می‌کند.",
     "tabQuotaSignals": "سیگنال های سهمیه ای",
     "tabApiKey": "کلید یکپارچه API",

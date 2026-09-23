@@ -376,6 +376,7 @@
     "checklistSummary": "{total}件中{configured}件のプロバイダーを設定済み",
     "checklistKeyless": "キー不要",
     "checklistNoKeyTip": "キーがまだ追加されていません。クリックして追加します。",
+    "checklistSignupLink": "アカウントを作成してキーを取得するには {provider} を開きます",
     "checklistKeylessTip": "キーなしで利用できます。",
     "tabQuotaSignals": "クォータ信号",
     "tabApiKey": "統一されたAPIキー",
